@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
+    <Users/>
   </div>
 </template>
 
 <script>
+import Users from './components/users.vue'
+
 export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
+  components: {
+    Users
   }
 }
 </script>
